@@ -1,0 +1,210 @@
+/* 25.47 */
+
+/* CSS RESET */
+*{
+    margin:0 ;
+    padding:0 ;
+}
+
+/* Navigation Bar */
+#navbar
+{
+    display:flex ;
+    align-items: center;
+    position: relative ;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo
+{
+    margin: 5px 32px ;
+}
+
+#logo img
+{
+    margin: 19px 25px;
+    height: 100px;
+}
+
+/* Navigation Bar: items of navbar */
+
+
+#navbar ul
+{
+    display:flex ;
+}
+#navbar::before
+{
+    content:"" ;
+    background-color: black ;
+    position: absolute ;
+    height: 100% ;
+    width: 100% ;
+    z-index: -1 ;
+    opacity: 0.4 ; 
+    top:0px ;
+    left:0px ;
+}
+#navbar ul li
+{
+    list-style:none ;
+    font-size: 2 rem;
+    font-family: 'Bebas Neue', cursive;
+}
+#navbar ul li a
+{
+    color:white ;
+    padding: 3px 32px ;
+    border-radius: 20px ;
+    text-decoration: none ;
+    font-size: 2rem;
+}
+#navbar ul li a:hover
+{
+    color:black ;
+    background-color: white ;
+}
+
+/* HOME SECTION */
+#home::before
+{
+    content:"" ; 
+    position:absolute ; 
+    background: url("5.jpg") no-repeat center center/cover ;
+    height: 50% ;
+    width: 100% ;
+    z-index: -1 ;
+    opacity: 0.4 ;
+    top:0px ;
+    left:0px ;
+}
+#home
+{
+    display: flex ;
+    height: 350px ;
+    flex-direction: column ;
+    padding: 3px 200px ;
+    justify-content: center ;
+    align-items: center ;
+}
+
+#home h1
+{
+    color: rgb(20, 24, 214) ;
+    text-align: center ;
+}
+#home p
+{
+    color:rgb(211, 18, 28) ;
+    text-align: center ;
+    font-size: 1.5rem ;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* utility class */
+.h-primary
+{
+    font-size: 3.8rem;
+    padding-top: 39px;
+    padding-bottom:0px;
+}
+.h-secondary
+{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn
+{
+    padding: 6px 20px ;
+    border: 2px solid white ;
+    background-color: brown ;
+    color: white ;
+    margin: 17px ;
+    font-size: 1.5rem ;
+    border-radius: 10px ;
+    cursor: pointer ;
+}
+.btn:hover
+{
+    color:white ;
+    background-color: rgba(6, 235, 6, 0.905);
+    font-size: 2.5rem;
+}
+.center
+{
+    text-align: center ;
+}
+
+
+/* services section */
+#services
+{
+    margin: 34px ;
+    display: flex ;
+}
+#services .box
+{
+    border: 2px solid brown ;
+    padding: 34px;
+    margin: 3px 6px ;
+    border-radius: 23px ;
+    background-color: blanchedalmond ;
+
+}
+#services .box img
+{
+    height: 150px;      
+    display:block ;
+    margin: auto ; 
+}
+
+
+/* Client Section */
+#client-section
+{
+    height:340px ;
+    position: relative;
+}
+#client-section h1
+{
+    font-size: 2.5rem ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#client-section::before
+{
+    content:"" ;
+    position: absolute ;
+    width:100% ;
+    height: 75% ;
+    z-index:-1 ;
+    opacity:0.8 ;
+    background: url("6.jpeg") no-repeat center center/cover ;
+}
+#clients img
+{
+    height: 120px ;
+
+}
+
+#clients
+{
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+}
+.client-item
+{
+    padding: 40px 50px ;
+}
+
+
+
+
+/* FOOTER */
+footer
+{
+    background: black ;
+    color:white ;
+    padding: 9px 20px ;
+}

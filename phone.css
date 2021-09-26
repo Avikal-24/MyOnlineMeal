@@ -1,0 +1,67 @@
+#navbar
+{
+    flex-direction: column;
+}
+#navbar ul li a
+{
+    font-size: 30px;
+    padding: 20px ;
+}
+
+#home
+{
+    height:280px ;
+    flex-direction: column ;
+    padding: 69px 123px ;
+}
+#home::before
+{
+    height:650px ;
+}
+
+#home p
+{
+    font-size:15px;
+}
+
+#services
+{
+    flex-direction: column;
+}
+
+#services .box
+{
+}
+
+#clients
+{
+    /* overflow: hidden; */
+    /* this tells ki extra content crop maaro rather than moving that content to next line */
+    flex-wrap: wrap ;
+    height:150px ;
+    align-items: start ;
+}
+#client-section::before
+{
+    height: 60% ;
+}
+
+#clients img
+{
+    height:70px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.client-item
+{
+    padding-top: 0px ;
+    padding-bottom: 0px ;
+    padding-left: 10px ;
+    padding-right: 10px ;
+}
+
+.h-primary
+{
+    font-size: 40px;
+}

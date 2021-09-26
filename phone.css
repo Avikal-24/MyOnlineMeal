@@ -7,6 +7,11 @@
     font-size: 30px;
     padding: 20px ;
 }
+/* Smooth Scrolling */
+html
+{
+    scroll-behaviour:smooth ;
+}
 
 #home
 {

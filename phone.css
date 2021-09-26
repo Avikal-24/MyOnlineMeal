@@ -10,7 +10,7 @@
 /* Smooth Scrolling */
 html
 {
-    scroll-behaviour:smooth ;
+    scroll-behavior: smooth  ;
 }
 
 #home

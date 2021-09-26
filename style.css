@@ -5,6 +5,11 @@
     margin:0 ;
     padding:0 ;
 }
+/* Smooth Scrolling */
+html
+{
+    scroll-behaviour:smooth ;
+}
 
 /* Navigation Bar */
 #navbar
